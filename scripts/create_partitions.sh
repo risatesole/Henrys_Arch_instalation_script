@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set_partition_table(){
+set_partitions(){
 # Variables
 DISK_DEVICE="/dev/sda"                  # Replace with your DISK_DEVICE
 PARTITION_ROOT_SIZE="+4G"               # Size of the root partition    keep the + simbol
